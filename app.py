@@ -40,7 +40,6 @@ with titre:
     st.title("Société 'Prêt à dépenser'")
     st.subheader('Réponse à la demande de crédit')
     st.write("""###### ***Dashboard réalisé par Agnès Regaud pour le projet 7 du parcours de Datascientist Openclassrooms***""" )
-    st.write("Test d'automatisation de mise à jour du code automatiquement via une source Github")
 with image:
     img = Image.open('Logo.png', )
     st.image(img, width = 250)
